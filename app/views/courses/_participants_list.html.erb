@@ -1,1 +1,5 @@
-_participants_list.html.erb
+参加者一覧
+<ul><% @participants.each do |participant| %>
+<li><%= participant.name %></li>
+<% end %>
+</ul>
